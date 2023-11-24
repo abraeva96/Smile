@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.head {
+    width: 450px;
+    height: 450px;
+    background-color: #398705;
+    border-radius: 50%;
+    padding: 80px 0 0 0;
+    border: rgb(200, 209, 75) solid 3px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.eyes {
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(162, 209, 75) solid 3px;
+    position: relative;
+}
+
+.eye {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.mouth {
+    width: 150px;
+    height: 50px;
+    background: rgba(255, 255, 0, 0.921);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: 0 auto;
+}
